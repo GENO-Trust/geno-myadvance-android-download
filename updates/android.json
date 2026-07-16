@@ -1,16 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 10,
-  "latestVersionName": "1.0.9",
-  "minSupportedVersionCode": 10,
+  "latestVersionCode": 11,
+  "latestVersionName": "1.0.10",
+  "minSupportedVersionCode": 11,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.9/GENO-Advance-v1.0.9.apk",
-  "sha256": "ff06b9d8fd3fd09c10d93b73e7b428d0723f91166f5795e54db10924a8d1f76f",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.10/GENO-Advance-v1.0.10.apk",
+  "sha256": "09b98e7d0b934aaef21ece19a5af5f15018cf174970cf5be4ba751689dbf791e",
   "releaseNotes": [
-    "Adds push notification registration for Android devices",
-    "Shows unread notification dots and in-app notification popups",
-    "Keeps notification read state synced after opening or marking notifications read",
-    "Adds a polling fallback so badges update even if push delivery is delayed",
-    "Adds a privacy toggle for available limit and improves the homepage header"
+    "Keeps the available-limit privacy eye toggle persisted until the customer changes it",
+    "Keeps display preference persisted on-device and prevents server refresh from overriding the selected theme",
+    "Removes mobile 2FA from the Android security screen",
+    "Requires a 6-digit SMS verification code before changing the account password"
   ]
 }
