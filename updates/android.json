@@ -1,14 +1,14 @@
 {
   "platform": "android",
-  "latestVersionCode": 4,
-  "latestVersionName": "1.0.3",
-  "minSupportedVersionCode": 4,
+  "latestVersionCode": 5,
+  "latestVersionName": "1.0.4",
+  "minSupportedVersionCode": 5,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.3/GENO-Advance-v1.0.3.apk",
-  "sha256": "beb3d38e27b34723ead3c3cad5c8be6e0b673ee97d3aa6fda16cff8508d64991",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.4/GENO-Advance-v1.0.4.apk",
+  "sha256": "71f79a1caeb935dbd2f20478d51e280882352a5093e9019736f7ddf215d7db54",
   "releaseNotes": [
-    "Renames the Android app display brand to GENO Advance",
-    "Defaults auth phone country code selectors to Tanzania (+255)",
-    "Improves the 6-digit verification code input for paste, delete, and full-code entry"
+    "Fixes Android login OTP delivery by sending phone numbers in +255 format",
+    "Aligns Android OTP verification with the customer web verification endpoint",
+    "Prevents dashboard navigation when verification does not return a session token"
   ]
 }
