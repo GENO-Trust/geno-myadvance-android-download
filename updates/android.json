@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 12,
-  "latestVersionName": "1.0.11",
-  "minSupportedVersionCode": 12,
+  "latestVersionCode": 13,
+  "latestVersionName": "1.0.12",
+  "minSupportedVersionCode": 13,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.11/GENO-Advance-v1.0.11.apk",
-  "sha256": "715d1f1393c1a6c1f705d4af352e09cba463b2ab885a78099a28f114dcd5ffc0",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.12/GENO-Advance-v1.0.12.apk",
+  "sha256": "e841acb06736894523c5af405b39eefa6cc684b6cc2590ffb2253adc1ed15296",
   "releaseNotes": [
-    "Fixes repayment detail crashes caused by strict JSON parsing",
-    "Handles payment failure reason fields returned in snake_case",
-    "Shows the amount the customer received from disbursement on advance details",
-    "Keeps advance IDs numeric while preserving media lookup compatibility"
+    "Fixes support ticket loading and improves the ticket list, detail, and create-ticket experience",
+    "Shows payroll deduction as the default payment method when an active payroll mandate exists",
+    "Keeps M-Pesa and bank payment methods optional for customers who want additional repayment options",
+    "Corrects support ticket filters for Open, In Progress, Resolved, and Closed tabs"
   ]
 }
