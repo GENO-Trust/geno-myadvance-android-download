@@ -1,15 +1,16 @@
 {
   "platform": "android",
-  "latestVersionCode": 9,
-  "latestVersionName": "1.0.8",
-  "minSupportedVersionCode": 9,
+  "latestVersionCode": 10,
+  "latestVersionName": "1.0.9",
+  "minSupportedVersionCode": 10,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.8/GENO-Advance-v1.0.8.apk",
-  "sha256": "bdbc44b679663b20ac9bc71db8fda8fc339d0fb9ef77a7f7bbf402e6ea1cc8ff",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.9/GENO-Advance-v1.0.9.apk",
+  "sha256": "ff06b9d8fd3fd09c10d93b73e7b428d0723f91166f5795e54db10924a8d1f76f",
   "releaseNotes": [
-    "Reconciles the Android request advance flow with the customer web flow",
-    "Fixes payment methods and support tickets loading from the API",
-    "Fixes employer display on My Profile",
-    "Fixes transaction and advance detail loading states"
+    "Adds push notification registration for Android devices",
+    "Shows unread notification dots and in-app notification popups",
+    "Keeps notification read state synced after opening or marking notifications read",
+    "Adds a polling fallback so badges update even if push delivery is delayed",
+    "Adds a privacy toggle for available limit and improves the homepage header"
   ]
 }
