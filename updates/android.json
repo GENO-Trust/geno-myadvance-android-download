@@ -1,14 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 7,
-  "latestVersionName": "1.0.6",
-  "minSupportedVersionCode": 7,
+  "latestVersionCode": 8,
+  "latestVersionName": "1.0.7",
+  "minSupportedVersionCode": 8,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.6/GENO-Advance-v1.0.6.apk",
-  "sha256": "f3bad141e0b4a6575dfb8920695fb69dbb2a4a1b74dc856323518416e42b6e0e",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.7/GENO-Advance-v1.0.7.apk",
+  "sha256": "cc1620a4600dac99646714a8414e6ebb7ab8c2907f86c5d5d576c95500642f2d",
   "releaseNotes": [
-    "Refreshes the Android UI with a more professional GENO blue design system",
-    "Improves welcome, login, dashboard, transactions, and payments screens",
-    "Adds polished cards, status pills, empty states, typography, and navigation styling"
+    "Adds a cleaner signed-in home header with GENO branding",
+    "Simplifies the profile page for salary advance customers",
+    "Fixes the dark mode setting so it updates the app theme",
+    "Improves the app settings screen and version display"
   ]
 }
