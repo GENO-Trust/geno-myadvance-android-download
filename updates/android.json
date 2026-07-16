@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 11,
-  "latestVersionName": "1.0.10",
-  "minSupportedVersionCode": 11,
+  "latestVersionCode": 12,
+  "latestVersionName": "1.0.11",
+  "minSupportedVersionCode": 12,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.10/GENO-Advance-v1.0.10.apk",
-  "sha256": "09b98e7d0b934aaef21ece19a5af5f15018cf174970cf5be4ba751689dbf791e",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.11/GENO-Advance-v1.0.11.apk",
+  "sha256": "715d1f1393c1a6c1f705d4af352e09cba463b2ab885a78099a28f114dcd5ffc0",
   "releaseNotes": [
-    "Keeps the available-limit privacy eye toggle persisted until the customer changes it",
-    "Keeps display preference persisted on-device and prevents server refresh from overriding the selected theme",
-    "Removes mobile 2FA from the Android security screen",
-    "Requires a 6-digit SMS verification code before changing the account password"
+    "Fixes repayment detail crashes caused by strict JSON parsing",
+    "Handles payment failure reason fields returned in snake_case",
+    "Shows the amount the customer received from disbursement on advance details",
+    "Keeps advance IDs numeric while preserving media lookup compatibility"
   ]
 }
