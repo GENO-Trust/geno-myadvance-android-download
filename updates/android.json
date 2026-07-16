@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 8,
-  "latestVersionName": "1.0.7",
-  "minSupportedVersionCode": 8,
+  "latestVersionCode": 9,
+  "latestVersionName": "1.0.8",
+  "minSupportedVersionCode": 9,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.7/GENO-Advance-v1.0.7.apk",
-  "sha256": "cc1620a4600dac99646714a8414e6ebb7ab8c2907f86c5d5d576c95500642f2d",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.8/GENO-Advance-v1.0.8.apk",
+  "sha256": "bdbc44b679663b20ac9bc71db8fda8fc339d0fb9ef77a7f7bbf402e6ea1cc8ff",
   "releaseNotes": [
-    "Adds a cleaner signed-in home header with GENO branding",
-    "Simplifies the profile page for salary advance customers",
-    "Fixes the dark mode setting so it updates the app theme",
-    "Improves the app settings screen and version display"
+    "Reconciles the Android request advance flow with the customer web flow",
+    "Fixes payment methods and support tickets loading from the API",
+    "Fixes employer display on My Profile",
+    "Fixes transaction and advance detail loading states"
   ]
 }
