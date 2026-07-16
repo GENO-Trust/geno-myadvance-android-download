@@ -1,14 +1,14 @@
 {
   "platform": "android",
-  "latestVersionCode": 2,
-  "latestVersionName": "1.0.1",
-  "minSupportedVersionCode": 2,
+  "latestVersionCode": 3,
+  "latestVersionName": "1.0.2",
+  "minSupportedVersionCode": 3,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.1/GENO-MyAdvance-v1.0.1.apk",
-  "sha256": "d3f972118e843095302845084bdd9ca442e53c5e9f27a1d851089eb44e86ee15",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.2/GENO-MyAdvance-v1.0.2.apk",
+  "sha256": "e64df2e582bc17d8dbbbbcc0a76047ea0f5a952d558f49b7a6b0bf0b828c1f5f",
   "releaseNotes": [
-    "First signed GENO MyAdvance Android release",
-    "Adds the updated app icon and production release signing",
-    "Includes customer payments, support, dashboard navigation, and advance request parity updates"
+    "Updates the Android theme to match the web blue/indigo brand palette",
+    "Keeps green reserved for success and paid states",
+    "Rebuilds the signed production APK with version 1.0.2"
   ]
 }
