@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 13,
-  "latestVersionName": "1.0.12",
-  "minSupportedVersionCode": 13,
+  "latestVersionCode": 14,
+  "latestVersionName": "1.0.13",
+  "minSupportedVersionCode": 14,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.12/GENO-Advance-v1.0.12.apk",
-  "sha256": "e841acb06736894523c5af405b39eefa6cc684b6cc2590ffb2253adc1ed15296",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.13/GENO-Advance-v1.0.13.apk",
+  "sha256": "f5215a2ad1ba32f8c52c9c59951b1ac7afc5840a9d61b389d3b2123a0414bde5",
   "releaseNotes": [
-    "Fixes support ticket loading and improves the ticket list, detail, and create-ticket experience",
-    "Shows payroll deduction as the default payment method when an active payroll mandate exists",
-    "Keeps M-Pesa and bank payment methods optional for customers who want additional repayment options",
-    "Corrects support ticket filters for Open, In Progress, Resolved, and Closed tabs"
+    "Adds polished skeleton loading and retryable error states across data-loading screens",
+    "Keeps the apply page in a loading state until salary advance data is ready",
+    "Renames National ID fields to NIDA in the Android app",
+    "Displays 20-digit NIDA values with web-matching separators, for example 19900101-12345-12345-12"
   ]
 }
