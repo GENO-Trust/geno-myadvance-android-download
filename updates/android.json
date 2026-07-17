@@ -1,11 +1,11 @@
 {
   "platform": "android",
-  "latestVersionCode": 20,
-  "latestVersionName": "1.0.19",
-  "minSupportedVersionCode": 20,
+  "latestVersionCode": 21,
+  "latestVersionName": "1.0.20",
+  "minSupportedVersionCode": 21,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.19/GENO-Advance-v1.0.19.apk",
-  "sha256": "373d7490997dd2f849fdb6d1aa9e420774e0031e5886499540e9faa12aabb974",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.20/GENO-Advance-v1.0.20.apk",
+  "sha256": "73927775f23bf50f35c40cdfbba4670bee8d6a39751eceb4c7184dc9d8a9c954",
   "releaseNotes": [
     "Adds pull-to-refresh on Android pages that load customer data",
     "Updates support and complaints pages so customers can refresh without leaving the screen",
