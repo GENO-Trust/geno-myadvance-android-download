@@ -4,7 +4,7 @@ Access salary advances, repayments, and support from your Android phone.
 
 ## Download
 
-[Download GENO Advance for Android](https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.14/GENO-Advance-v1.0.14.apk)
+[Download GENO Advance for Android](https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.15/GENO-Advance-v1.0.15.apk)
 
 Tap the download button above on your Android phone. After the download finishes, open the file to install GENO Advance.
 

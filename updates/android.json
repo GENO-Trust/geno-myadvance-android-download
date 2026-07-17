@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 15,
-  "latestVersionName": "1.0.14",
-  "minSupportedVersionCode": 15,
+  "latestVersionCode": 16,
+  "latestVersionName": "1.0.15",
+  "minSupportedVersionCode": 16,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.14/GENO-Advance-v1.0.14.apk",
-  "sha256": "73e5085b9724ec77e4e1fff95f3023d05ba6218fdba4b10d063b0e154a25c9bd",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.15/GENO-Advance-v1.0.15.apk",
+  "sha256": "13b532e41a0761196f8c68c07b22178fc1fc43bad9b985b79ebaa95fa1e0feb1",
   "releaseNotes": [
-    "Keeps logout available on the profile screen even when profile data is loading or unavailable",
-    "Adds a top-right logout action on the profile page for fast access",
-    "Preserves profile loading skeletons and retryable error states while keeping account actions reachable",
-    "Includes the latest NIDA label and separator display updates"
+    "Fixes Request Advance and Repay button text so it stays white on blue buttons",
+    "Adds a polished illustrated empty state for notifications",
+    "Defaults advance request amount selection to 75% of the available limit",
+    "Highlights the active advance percentage chip in blue with white text"
   ]
 }
