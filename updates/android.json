@@ -1,15 +1,15 @@
 {
   "platform": "android",
-  "latestVersionCode": 16,
-  "latestVersionName": "1.0.15",
-  "minSupportedVersionCode": 16,
+  "latestVersionCode": 17,
+  "latestVersionName": "1.0.16",
+  "minSupportedVersionCode": 17,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.15/GENO-Advance-v1.0.15.apk",
-  "sha256": "13b532e41a0761196f8c68c07b22178fc1fc43bad9b985b79ebaa95fa1e0feb1",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.16/GENO-Advance-v1.0.16.apk",
+  "sha256": "3bd4ecce6cdaa75aa49602dcabdfa5fc281fcd70bdb568f4521104a5920c62c4",
   "releaseNotes": [
-    "Fixes Request Advance and Repay button text so it stays white on blue buttons",
-    "Adds a polished illustrated empty state for notifications",
-    "Defaults advance request amount selection to 75% of the available limit",
-    "Highlights the active advance percentage chip in blue with white text"
+    "Fixes duplicated information on the History screen",
+    "Opens repayment rows into a proper repayment detail receipt",
+    "Improves advance timelines with accurate repayment events and amounts",
+    "Updates payment detail handling for UUID repayment IDs"
   ]
 }
