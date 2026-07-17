@@ -1,15 +1,14 @@
 {
   "platform": "android",
-  "latestVersionCode": 18,
-  "latestVersionName": "1.0.17",
-  "minSupportedVersionCode": 18,
+  "latestVersionCode": 19,
+  "latestVersionName": "1.0.18",
+  "minSupportedVersionCode": 19,
   "forceUpdate": true,
-  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.17/GENO-Advance-v1.0.17.apk",
-  "sha256": "99d310a5334882bfc6447acc8da3ec00ef808e874f3a249c899c52351b9c60f5",
+  "apkUrl": "https://github.com/GENO-Trust/geno-myadvance-android-download/releases/download/v1.0.18/GENO-Advance-v1.0.18.apk",
+  "sha256": "7f91509d4017c30368e53015a02c304b45ee221dfb45857fa8f32759af9480a9",
   "releaseNotes": [
-    "Fixes expired sessions returning to empty protected screens",
-    "Adds encrypted local app PIN setup, change, remove, and unlock",
-    "Scopes the local PIN to the current user on this device",
-    "Clears notification and session state consistently after token expiry"
+    "Renames the offer fee label to Total Fees Per Month",
+    "Keeps fee wording consistent in request advance review",
+    "Updates the key facts statement fee label"
   ]
 }
